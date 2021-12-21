@@ -1,0 +1,385 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# Phần mềm này tự do; hãy xem mã nguồn để tìm thấy điều kiện sao chép.
+# Không bảo đảm gì cả, dù khả năng bán hay khả năng làm việc dứt khoát.
+# 
+
+# Chương trình này đã được xây dụng cho i386-pc-mingw32
+
+# Cơ sở dữ liệu Make, được in ra vào Thu May 27 01:54:41 2021
+
+# Biến
+
+# tự động
+<D = $(patsubst %/,%,$(dir $<))
+# tự động
+?F = $(notdir $?)
+# môi trường
+WSLENV = WT_SESSION::WT_PROFILE_ID
+# môi trường
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# tập tin tạo
+MAKEFLAGS = Rrqp
+# môi trường
+VSCODE_LOG_NATIVE = false
+# tự động
+?D = $(patsubst %/,%,$(dir $?))
+# tự động
+@D = $(patsubst %/,%,$(dir $@))
+# môi trường
+HOMEDRIVE = C:
+# tự động
+@F = $(notdir $@)
+# tự động
+^D = $(patsubst %/,%,$(dir $^))
+# tập tin tạo
+CURDIR := c:/Users/Admin/Exercism/c/hello-world
+# mặc định
+SHELL := sh.exe
+# môi trường
+WINDIR = C:\WINDOWS
+# môi trường
+VSCODE_NLS_CONFIG = {"locale":"vi","availableLanguages":{},"_languagePackSupport":true}
+# tập tin tạo (từ « makefile », dòng 14)
+CFLAGS = -std=c99 -g -Wall -Wextra -pedantic -Werror -Wmissing-declarations -DUNITY_SUPPORT_64
+# môi trường
+ONEDRIVE = C:\Users\Admin\OneDrive
+# môi trường
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW;.CPL
+# tập tin tạo (từ « makefile », dòng 1)
+MAKEFILE_LIST :=  makefile
+# môi trường
+VSCODE_NODE_CACHED_DATA_DIR = C:\Users\Admin\AppData\Roaming\Code\CachedData\054a9295330880ed74ceaedda236253b4f39a335
+# môi trường
+TMP = C:\Users\Admin\AppData\Local\Temp
+# môi trường
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# môi trường
+VSCODE_VERBOSE_LOGGING = true
+# môi trường
+PROGRAMW6432 = C:\Program Files
+# môi trường
+PROGRAMDATA = C:\ProgramData
+# môi trường
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-13378fee-c738-467b-8b86-c1f2fd5e9eb5-sock
+# môi trường
+VSCODE_CWD = C:\Users\Admin\Exercism\c\hello-world
+# môi trường
+GOPROXY = https://proxy.golang.org,direct
+# môi trường
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2020a\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\MiKTeX\miktex\bin\x64\;C:\Go\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Ruby27-x64\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\go\bin;C:\Users\Admin\AppData\Local\atom\bin;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\src\flutter\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\Admin\AppData\Local\GitHubDesktop\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\go\bin;E:\Go-lang\exercism;C:\HUGO\bin;C:\dev_arm\tool\gcc-arm-none-eabi-10-2020-q4-major\bin;C:\dev_arm\tool\make-3.81\bin;C:\dev_arm\tool\OpenOCD-20210519-0.11.0\bin
+# môi trường
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# môi trường
+CHOCOLATEYLASTPATHUPDATE = 132364450047719700
+# môi trường
+PROCESSOR_ARCHITECTURE = x86
+# môi trường
+USERPROFILE = C:\Users\Admin
+# môi trường
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# môi trường
+RUBYOPT = -Eutf-8
+# môi trường
+ALLUSERSPROFILE = C:\ProgramData
+# môi trường
+GOPATH = C:\Users\Admin\go
+# môi trường
+VSCODE_LOG_STACK = false
+# môi trường
+NUMBER_OF_PROCESSORS = 8
+# môi trường
+ELECTRON_RUN_AS_NODE = 1
+# mặc định
+.FEATURES := target-specific order-only second-expansion else-if archives
+# tự động
+%F = $(notdir $%)
+# môi trường
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_23440_WNXGFOPURTOILRMH
+# môi trường
+VSCODE_PIPE_LOGGING = true
+# môi trường
+COMPUTERNAME = DESKTOP-7TFACSL
+# môi trường
+PROGRAMFILES = C:\Program Files (x86)
+# môi trường
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# tự động
+*D = $(patsubst %/,%,$(dir $*))
+# tập tin tạo (từ « makefile », dòng 18)
+ASANFLAGS = -fsanitize=address -fno-common -fno-omit-frame-pointer
+# môi trường
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# môi trường
+WT_SESSION = c33d6690-064e-4046-b5f4-45fa313411e4
+# môi trường
+USERNAME = Admin
+# môi trường
+PUBLIC = C:\Users\Public
+# môi trường
+GOMODCACHE = C:\Users\Admin\go\pkg\mod
+# môi trường
+VSCODE_CLI = 1
+# môi trường
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# môi trường
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# môi trường
+LOGONSERVER = \\DESKTOP-7TFACSL
+# môi trường
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# môi trường
+USERDOMAIN = DESKTOP-7TFACSL
+# mặc định
+MAKE = $(MAKE_COMMAND)
+# mặc định
+MAKECMDGOALS := all
+# mặc định
+MAKE_VERSION := 3.81
+# tập tin tạo
+.DEFAULT_GOAL := test
+# môi trường
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# tự động
+%D = $(patsubst %/,%,$(dir $%))
+# môi trường
+LOCALAPPDATA = C:\Users\Admin\AppData\Local
+# môi trường
+PSMODULEPATH = C:\Users\Admin\Documents\WindowsPowerShell\Modules;C:\Users\Admin\Documents\WindowsPowerShell\Modules;C:\Program Files (x86)\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;E:\dataplicity
+# mặc định
+MAKE_COMMAND := make.exe
+# môi trường
+PROCESSOR_ARCHITEW6432 = AMD64
+# mặc định
+.VARIABLES := 
+# tự động
+*F = $(notdir $*)
+# môi trường
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+# môi trường
+OS = Windows_NT
+# môi trường
+VSCODE_IPC_HOOK = \\.\pipe\1fa9692ca970862365dc969f915639a2-1.56.2-main-sock
+# môi trường
+HOMEPATH = \Users\Admin
+# môi trường
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# môi trường
+PROMPT = $P$G
+# môi trường
+MFLAGS = -Rrqp
+# môi trường
+GIT = C:\Program Files\Git
+# môi trường
+SYSTEMROOT = C:\WINDOWS
+# tự động
++D = $(patsubst %/,%,$(dir $+))
+# tự động
++F = $(notdir $+)
+# môi trường
+APPDATA = C:\Users\Admin\AppData\Roaming
+# môi trường
+TEMP = C:\Users\Admin\AppData\Local\Temp
+# môi trường
+WT_PROFILE_ID = {61c54bbd-c2c6-5271-96e7-009a87ff44bf}
+# môi trường
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# mặc định
+MAKEFILES := 
+# môi trường
+ARMGCC_DIR = C:\dev_arm\tool\gcc-arm-none-eabi-10-2020-q4-major\bin
+# tự động
+<F = $(notdir $<)
+# môi trường
+LC_ALL = C
+# tập tin tạo (từ « makefile », dòng 4)
+LIBS = -lm
+# tự động
+^F = $(notdir $^)
+# mặc định
+SUFFIXES := 
+# môi trường
+SYSTEMDRIVE = C:
+# môi trường
+PROCESSOR_REVISION = 8e0a
+# môi trường
+MOZ_PLUGIN_PATH = C:\Program Files\Tracker Software\PDF Viewer\Win32\
+# môi trường
+MAKELEVEL := 0
+# môi trường
+GOLANG = C:\Go
+# môi trường
+PROCESSOR_LEVEL = 6
+# môi trường
+VSCODE_PID = 23440
+# môi trường
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-7TFACSL
+# môi trường
+LANG = C
+# thống kê bảng băm lập biến:
+# Trọng tải=103/1024=10%, Băm lại=0, Xung đột=12/141=9%
+
+# Giá trị biến đặc trưng cho mẫu
+
+# Không có giá trị biến đặc trưng cho mẫu
+
+# Thư mục
+
+# C:\Program Files\Docker\Docker\resources\bin (khóa C:/Program Files/Docker/Docker/resources/bin, giờ_m 1616638857): 11 tập tin, kh�ng điều không thể.
+# C:\Users\Admin\AppData\Local\Microsoft\WindowsApps (khóa C:/Users/Admin/AppData/Local/Microsoft/WindowsApps, giờ_m 1618581193): 24 tập tin, kh�ng điều không thể.
+# C:\Program Files\MATLAB\R2020a\bin (khóa C:/Program Files/MATLAB/R2020a/bin, giờ_m 1588691195): 14 tập tin, kh�ng điều không thể.
+# C:\Users\Admin\AppData\Local\GitHubDesktop\bin (khóa C:/Users/Admin/AppData/Local/GitHubDesktop/bin, giờ_m 1576680688): 4 tập tin, kh�ng điều không thể.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (khóa C:/WINDOWS/System32/WindowsPowerShell/v1.0/, giờ_m 1606472659): 30 tập tin, kh�ng điều không thể.
+# C:\WINDOWS\System32\Wbem (khóa C:/WINDOWS/System32/Wbem, giờ_m 1620984223): 171 tập tin, kh�ng điều không thể.
+# . (khóa c:/Users/Admin/Exercism/c/hello-world, giờ_m 1622055267): 9 tập tin, kh�ng điều không thể.
+# E:\Go-lang\exercism (khóa E:/Go-lang/exercism, giờ_m 1616259050): 8 tập tin, kh�ng điều không thể.
+# C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility: không thể lấy các thông tin về nó.
+# C:\src\flutter\bin (khóa C:/src/flutter/bin, giờ_m 1607241586): 9 tập tin, kh�ng điều không thể.
+# C:\ProgramData\chocolatey\bin (khóa C:/ProgramData/chocolatey/bin, giờ_m 1591971404): 13 tập tin, kh�ng điều không thể.
+# test (khóa c:/Users/Admin/Exercism/c/hello-world/test, giờ_m 1616320296): 4 tập tin, kh�ng điều không thể.
+# C:\Program Files\nodejs\ (khóa C:/Program Files/nodejs/, giờ_m 1591971368): 11 tập tin, kh�ng điều không thể.
+# C:\Users\Admin\go\bin (khóa C:/Users/Admin/go/bin, giờ_m 1621499991): 23 tập tin, kh�ng điều không thể.
+# C:\dev_arm\tool\OpenOCD-20210519-0.11.0\bin (khóa C:/dev_arm/tool/OpenOCD-20210519-0.11.0/bin, giờ_m 1621457103): 7 tập tin, kh�ng điều không thể.
+# C:\HUGO\bin (khóa C:/HUGO/bin, giờ_m 1617681799): 5 tập tin, kh�ng điều không thể.
+# C:\Users\Admin\AppData\Local\Programs\MiKTeX\miktex\bin\x64\ (khóa C:/Users/Admin/AppData/Local/Programs/MiKTeX/miktex/bin/x64/, giờ_m 1601122546): 663 tập tin, kh�ng điều không thể.
+# C:\dev_arm\tool\make-3.81\bin (khóa C:/dev_arm/tool/make-3.81/bin, giờ_m 1622005333): 5 tập tin, kh�ng điều không thể.
+# C:\WINDOWS\System32\OpenSSH\: không thể lấy các thông tin về nó.
+# C:\Program Files\PuTTY\ (khóa C:/Program Files/PuTTY/, giờ_m 1600874976): 12 tập tin, kh�ng điều không thể.
+# C:\Strawberry\c\bin (khóa C:/Strawberry/c/bin, giờ_m 1601122731): 115 tập tin, kh�ng điều không thể.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (khóa C:/Program Files (x86)/Common Files/Oracle/Java/javapath, giờ_m 1621491898): 5 tập tin, kh�ng điều không thể.
+# C:\ProgramData\DockerDesktop\version-bin (khóa C:/ProgramData/DockerDesktop/version-bin, giờ_m 1617610810): 4 tập tin, kh�ng điều không thể.
+# C:\Strawberry\perl\bin (khóa C:/Strawberry/perl/bin, giờ_m 1601122795): 174 tập tin, kh�ng điều không thể.
+# C:\WINDOWS (khóa C:/WINDOWS, giờ_m 1621492334): 123 tập tin, kh�ng điều không thể.
+# C:\dev_arm\tool\gcc-arm-none-eabi-10-2020-q4-major\bin (khóa C:/dev_arm/tool/gcc-arm-none-eabi-10-2020-q4-major/bin, giờ_m 1606165704): 35 tập tin, kh�ng điều không thể.
+# C:\Users\Admin\AppData\Local\atom\bin: không thể lấy các thông tin về nó.
+# C:\Ruby27-x64\bin (khóa C:/Ruby27-x64/bin, giờ_m 1617610379): 27 tập tin, kh�ng điều không thể.
+# C:\Strawberry\perl\site\bin (khóa C:/Strawberry/perl/site/bin, giờ_m 1601122717): 2 tập tin, kh�ng điều không thể.
+# C:\Python38\ (khóa C:/Python38/, giờ_m 1591971574): 18 tập tin, kh�ng điều không thể.
+# C:\Program Files\MiKTeX\miktex\bin\x64\ (khóa C:/Program Files/MiKTeX/miktex/bin/x64/, giờ_m 1601209667): 664 tập tin, kh�ng điều không thể.
+# src (khóa c:/Users/Admin/Exercism/c/hello-world/src, giờ_m 1616320294): 4 tập tin, kh�ng điều không thể.
+# C:\Python38\Scripts\ (khóa C:/Python38/Scripts/, giờ_m 1621839164): 8 tập tin, kh�ng điều không thể.
+# C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin (khóa C:/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin, giờ_m 1621494685): 4 tập tin, kh�ng điều không thể.
+# C:\Program Files\Git\cmd (khóa C:/Program Files/Git/cmd, giờ_m 1608284878): 8 tập tin, kh�ng điều không thể.
+# C:\WINDOWS\system32 (khóa C:/WINDOWS/system32, giờ_m 1621914984): 3151 tập tin, kh�ng điều không thể.
+# C:\Go\bin (khóa C:/Go/bin, giờ_m 1608283117): 4 tập tin, kh�ng điều không thể.
+# C:\Users\Admin\AppData\Roaming\npm (khóa C:/Users/Admin/AppData/Roaming/npm, giờ_m 1617979112): 21 tập tin, kh�ng điều không thể.
+
+# 5390 tập tin, kh�ng điều không thể trong 38 thư mục.
+
+# Quy tắc ngầm
+
+# Không có quy tắc ngầm.
+
+# Tập tin
+
+# Không phải là đĩch:
+all:
+# Đích dòng lệnh.
+# Mới tìm kiếm kiểu quy tắc ngầm.
+# Tập tin không tồn tại.
+# Tập tin chưa được cập nhật.
+# thống kê bảng băm lập biến:
+# Trọng tải=0/32=0%, Băm lại=0, Xung đột=0/0=0%
+
+memcheck: test/test_hello_world.c src/hello_world.c src/hello_world.h
+# Đích giả (điều kiện tiên quyết của .PHONY).
+# Chưa tìm kiếm kiểu quy tắc ngầm.
+# Tập tin không tồn tại.
+# Tập tin chưa được cập nhật.
+# các lệnh cần thi hành (từ « makefile », dòng 26):
+	@echo Compiling $@
+	@$(CC) $(ASANFLAGS) $(CFLAGS) src/*.c test/vendor/unity.c test/*.c -o memcheck.out $(LIBS)
+	@./memcheck.out
+	@echo "Memory check passed"
+	
+
+.PHONY: test memcheck clean
+# Chưa tìm kiếm kiểu quy tắc ngầm.
+# Chưa bao giờ kiểm tra giờ sửa đổi.
+# Tập tin chưa được cập nhật.
+
+# Không phải là đĩch:
+.DEFAULT:
+# Chưa tìm kiếm kiểu quy tắc ngầm.
+# Chưa bao giờ kiểm tra giờ sửa đổi.
+# Tập tin chưa được cập nhật.
+
+test: tests.out
+# Đích giả (điều kiện tiên quyết của .PHONY).
+# Chưa tìm kiếm kiểu quy tắc ngầm.
+# Tập tin không tồn tại.
+# Tập tin chưa được cập nhật.
+# các lệnh cần thi hành (từ « makefile », dòng 22):
+	@./tests.out
+	
+
+# Không phải là đĩch:
+makefile:
+# Mới tìm kiếm kiểu quy tắc ngầm.
+# Sửa đổi cuối cùng 2021-03-21 16:51:33
+# Tập tin đã được cập nhật.
+# Đã được cập nhật.
+# thống kê bảng băm lập biến:
+# Trọng tải=0/32=0%, Băm lại=0, Xung đột=0/0=0%
+
+tests.out: test/test_hello_world.c src/hello_world.c src/hello_world.h
+# Chưa tìm kiếm kiểu quy tắc ngầm.
+# Chưa bao giờ kiểm tra giờ sửa đổi.
+# Tập tin chưa được cập nhật.
+# các lệnh cần thi hành (từ « makefile », dòng 36):
+	@echo Compiling $@
+	@$(CC) $(CFLAGS) src/*.c test/vendor/unity.c test/*.c -o tests.out $(LIBS)
+	
+
+# Không phải là đĩch:
+.SUFFIXES:
+# Chưa tìm kiếm kiểu quy tắc ngầm.
+# Chưa bao giờ kiểm tra giờ sửa đổi.
+# Tập tin chưa được cập nhật.
+
+# Không phải là đĩch:
+test/test_hello_world.c:
+# Chưa tìm kiếm kiểu quy tắc ngầm.
+# Chưa bao giờ kiểm tra giờ sửa đổi.
+# Tập tin chưa được cập nhật.
+
+clean:
+# Đích giả (điều kiện tiên quyết của .PHONY).
+# Chưa tìm kiếm kiểu quy tắc ngầm.
+# Tập tin không tồn tại.
+# Tập tin chưa được cập nhật.
+# các lệnh cần thi hành (từ « makefile », dòng 33):
+	rm -rf *.o *.out *.out.dSYM
+	
+
+# Không phải là đĩch:
+src/hello_world.c:
+# Chưa tìm kiếm kiểu quy tắc ngầm.
+# Chưa bao giờ kiểm tra giờ sửa đổi.
+# Tập tin chưa được cập nhật.
+
+# Không phải là đĩch:
+src/hello_world.h:
+# Chưa tìm kiếm kiểu quy tắc ngầm.
+# Chưa bao giờ kiểm tra giờ sửa đổi.
+# Tập tin chưa được cập nhật.
+
+# thống kê bảng băm các tập tin:
+# Trọng tải=12/1024=1%, Băm lại=0, Xung đột=0/35=0%
+# Đường dẫn tìm kiếm VPATH
+
+# Không có đường dẫn tìm kiếm VPATH nào
+
+# Không có đường dẫn tìm kiếm chung (biến « VPATH »).
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Mới xong cơ sở dữ liệu Make vào Thu May 27 01:54:41 2021
+
+ 
+make.exe: *** Không có quy tắc tới đích make « all ».  Dừng.
+ 

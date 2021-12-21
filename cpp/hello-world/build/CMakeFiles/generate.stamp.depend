@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+E:/PracticeCode/Exercism/cpp/hello-world/CMakeLists.txt
+E:/PracticeCode/Exercism/cpp/hello-world/build/CMakeFiles/3.22.0/CMakeCXXCompiler.cmake
+E:/PracticeCode/Exercism/cpp/hello-world/build/CMakeFiles/3.22.0/CMakeRCCompiler.cmake
+E:/PracticeCode/Exercism/cpp/hello-world/build/CMakeFiles/3.22.0/CMakeSystem.cmake
+E:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCXXInformation.cmake
+E:/Program Files/CMake/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake
+E:/Program Files/CMake/share/cmake-3.22/Modules/CMakeGenericSystem.cmake
+E:/Program Files/CMake/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake
+E:/Program Files/CMake/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake
+E:/Program Files/CMake/share/cmake-3.22/Modules/CMakeRCInformation.cmake
+E:/Program Files/CMake/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake
+E:/Program Files/CMake/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake
+E:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+E:/Program Files/CMake/share/cmake-3.22/Modules/Compiler/MSVC-CXX.cmake
+E:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows-MSVC-CXX.cmake
+E:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows-MSVC.cmake
+E:/Program Files/CMake/share/cmake-3.22/Modules/Platform/Windows.cmake
+E:/Program Files/CMake/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake

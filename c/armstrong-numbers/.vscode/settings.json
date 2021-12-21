@@ -1,0 +1,11 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "c:\\Users\\Admin\\Exercism\\c\\armstrong-numbers",
+            "binaryPath": "c:\\Users\\Admin\\Exercism\\c\\armstrong-numbers\\tests.out",
+            "binaryArgs": []
+        }
+    ],
+    "makefile.makePath": "E:\\Program Files (x86)\\GnuWin32\\bin\\make.exe"
+}

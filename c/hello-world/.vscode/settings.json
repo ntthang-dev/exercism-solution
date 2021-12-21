@@ -1,0 +1,10 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "c:\\Users\\Admin\\Exercism\\c\\hello-world",
+            "binaryPath": "c:\\Users\\Admin\\Exercism\\c\\hello-world\\tests.out",
+            "binaryArgs": []
+        }
+    ]
+}
